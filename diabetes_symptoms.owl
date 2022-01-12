@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#descrizione_sintomo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#descrizione_sintomo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sintomo_diabete"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#bocca_asciutta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#bocca_asciutta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sintomo_diabete"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#consumo_alimenti_zuccherati -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#consumo_alimenti_zuccherati">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sintomo_diabete"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#fame_costante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#fame_costante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sintomo_diabete"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#perdita_di_peso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#perdita_di_peso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sintomo_diabete"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#prurito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#prurito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sintomo_diabete"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sintomo_diabete"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sintomo_diabete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sintomo_diabete"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#stanchezza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#stanchezza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sintomo_diabete"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#vista_offuscata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#vista_offuscata">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sintomo_diabete"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_alimenti_zuccherati -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_alimenti_zuccherati">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#consumo_alimenti_zuccherati"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quando assumiamo troppo zucchero però il corpo ci invia dei segnali inequivocabili: stanchezza cronica, pelle spenta, aumento di peso, glicemia alta, ipertensione, fino alla depressione, e tutto ciò rende necessario ridurne drasticamente il consumo.</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_bocca_asciutta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_bocca_asciutta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#bocca_asciutta"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La secchezza del cavo orale può essere causata anche da malattie sistemiche, quali sindrome di Sjögren, infezione da HIV/AIDS, lebbra, amiloidosi, diabete e tubercolosi. La bocca secca può essere conseguenza anche di traumi, stati d&apos;ansia, eccessiva respirazione orale e disidratazione.</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_fame_costante -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_fame_costante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#fame_costante"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le patologie che si possono associare ad una sensazione continua di fame comprendono il diabete, l&apos;ipertiroidismo e l&apos;insulinoma (tumore del pancreas). La fame dev&apos;ssere distinta dal desiderio di mangiare e dal falso appetito, ossia dal bisogno psicologico di consumare alimenti la cui ingestione procura piacere.</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_perdita_peso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_perdita_peso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#perdita_di_peso"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La perdita di peso può essere il sintomo di un problema di salute quando corrisponde a un dimagrimento di 5 kg o pari al 5% del peso corporeo in meno</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_prurito -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_prurito">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#prurito"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La manifestazione di prurito può essere segno di diverse condizioni: allergie da contatto, intolleranze alimentari, dermatiti, lesioni cutanee di vario tipo, malattie renali, malattie epatiche, malattie endocrine, edema, neoplasie (morbo di Hodgkin), malattie infettive (morbillo, varicella), malattie neurologiche.</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_sete -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_sete">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#sete"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La sete è il desiderio di introdurre liquidi nell’organismo. Qualora la sete si presenti in modo continuo e non si plachi neppure dopo avere bevuto può essere il sintomo di un problema avente origine fisica o psicologica.</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_stanchezza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_stanchezza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#stanchezza"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La stanchezza (o spossatezza) può essere conseguenza di particolari sforzi fisici o psichici, di prolungata interruzione del sonno o di varie patologie, tra le quali ci sono: anemia, artrite reumatoide, broncopneumopatia cronico ostruttiva, diabete, enfisema, fibromialgia, infarto miocardico, insufficienza epatica, ...</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_vista_offuscata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#istanza_vista_offuscata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/0/untitled-ontology-7#vista_offuscata"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Con l&apos;espressione visione offuscata si intende la perdita di nitidezza delle immagini osservate e l&apos;incapacità di distinguerne i dettagli più sottili.</descrizione_sintomo>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
